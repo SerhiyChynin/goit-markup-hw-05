@@ -150,6 +150,7 @@ address {
 /* main */
 
 .sec-one {
+    position: relative;
     background-color: #2E2F42;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-bg.jpg);
     background-repeat: no-repeat;
@@ -187,7 +188,53 @@ address {
 .btn:hover{
     background-color: #404BBF;
 }
+/*=================== form ================== */
+.modal{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 408px;
+    padding-left: 24px;
+}
+label{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: inherit;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    line-height: 1.2;
 
+}
+.btn-send{
+    margin: 24px auto;
+}
+.user-i{
+    width: 360px;
+    height: 40px;
+    border-radius: 4px;
+}
+.user-com{
+    width: 360px;
+    height: 120px;
+    border-radius: 4px;
+    padding-left: 16px;
+    padding-top: 8px;
+}
+.checkbox{
+
+}
+
+
+.checkbox{
+    display: flex;
+    align-items: first baseline;
+    justify-content: center;
+}
 
 .sec-two .description {
     display: flex;
