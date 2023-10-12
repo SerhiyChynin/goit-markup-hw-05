@@ -189,16 +189,53 @@ address {
     background-color: #404BBF;
 }
 /*=================== form ================== */
+.backdrop{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(46, 47, 66, 0.4);
+}
 .modal{
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    background-color: #fff;
+    border-radius: 4px;
+    background-color: rgba(252, 252, 252, 1);
     margin: 0 auto;
     border: 1px solid black;
     width: 408px;
-    padding-left: 24px;
+    min-height: 584px;
+    padding: 24px;
+}
+.modal-btn{
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    width: 24px;
+    height: 24px;
+    padding: 0;
+}
+.modal-title{
+    display: block;
+    padding-top: 48px;
+    text-align: center;
+    color: rgba(46, 47, 66, 1);
+    font-weight: 500;
+
+}
+.modal-icon-line{
+    border: 1.25px solid rgba(46, 47, 66, 1);
+    width: 0;
+    height: 18px;
+    fill: rgba(46, 47, 66, 1);
+}
+.svg-icon{
+    position: absolute;
 }
 label{
     display: flex;
@@ -214,10 +251,18 @@ label{
     margin: 24px auto;
 }
 .user-i{
-    width: 360px;
+    width: 100%;
     height: 40px;
     border-radius: 4px;
+    background-color: transparent;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    color: rgba(46, 47, 66, 0.4);
 }
+/* .user-i:nth-child(2){
+    border: 1px solid rgba(77, 90, 229, 1);
+    color: rgba(77, 90, 229, 1);
+} */
+
 .user-com{
     width: 360px;
     height: 120px;
@@ -225,9 +270,9 @@ label{
     padding-left: 16px;
     padding-top: 8px;
 }
-.checkbox{
+/* .checkbox{
 
-}
+} */
 
 
 .checkbox{
