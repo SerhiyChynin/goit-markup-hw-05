@@ -217,23 +217,36 @@ address {
     width: 408px;
     min-height: 584px;
     padding: 24px;
-    /* opacity: 0;
-    visibility: hidden;
-    pointer-events: none; */
-}
-.modal-btn{
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 
+    0 1px 3px 0 rgba(0, 0, 0, 0.12),
+    0 1px 2px 0 rgba(0, 0, 0, 0.2);
     border: none;
+
+}
+.modal-btn-icon{
     background-color: transparent;
     position: absolute;
-    top: 24px;
-    right: 24px;
+    top: 0px;
+    border-color: rgba(231, 233, 252, 1);
+    right: 0px;
     width: 24px;
     height: 24px;
     padding: 0;
 }
+.modal-btn{
+    background-color: transparent;
+    position: absolute;
+    top: 24px;
+    border-color: rgba(231, 233, 252, 1);
+    right: 24px;
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    border: none;
+}
 .modal-title{
     display: block;
-    padding-top: 48px;
+    margin-top: 48px;
     text-align: center;
     color: rgba(46, 47, 66, 1);
     font-weight: 500;
@@ -243,7 +256,6 @@ address {
     display: block;
     margin-bottom: 4px;
     margin-top: 8px;
-    /* position: relative; */
 }
 .user-label:nth-child(2){
     margin-top: 16px;
@@ -255,11 +267,7 @@ address {
     fill: rgba(46, 47, 66, 1);
     margin-left: 4px;
 }
-.modal-icon{
-    /* fill: transparent; */
-    /* stroke: rgba(46, 47, 66, 1); */
-    /* fill: rgba(46, 47, 66, 1); */
-}
+
 .i-icon{
     position: relative;
 }
@@ -271,18 +279,14 @@ address {
     transform: translateY(-50%);
 }
 label{
-    /* display: flex;
-    flex-direction: column;
-    align-items: flex-start; */
+
     font-family: inherit;
     font-size: 12px;
     letter-spacing: 0.04em;
     line-height: 1.2;
 }
-.checkbox-wrap{
-    /* position: relative; */
-}
-.checkbox-agry{
+
+.checkbox-agree{
     font-weight: 400;
     font-size: 12px;
     line-height: 1.3;
@@ -290,11 +294,14 @@ label{
     color: rgba(142, 143, 153, 1);
     text-align: center;
 }
-.checkbox-agry a{
+.checkbox-agree a{
+    text-decoration: underline;
     color: rgba(77, 90, 229, 1);
 }
 .btn-send{
-    margin: 24px auto;
+    margin: 24px auto 0;
+    width: 169px;
+    height: 56px; 
 }
 .user-i{
     width: 100%;
@@ -315,7 +322,7 @@ label{
 
 .user-com{
     width: 100%;
-    min-height: 120px;
+    height: 120px;
     border-radius: 4px;
     padding-left: 16px;
     font-size: 12px;
@@ -327,10 +334,13 @@ label{
     border: 1px solid rgba(46, 47, 66, 0.4);
     color: rgba(46, 47, 66, 0.4);
     resize: none;
+    outline: none;
 }
-/* .checkbox{
+.user-com:focus{
+    border-color: rgba(77, 90, 229, 1);
+}
 
-} */
+
 
 
 .checkbox{
