@@ -617,12 +617,12 @@ section{
     max-width: 264px;
 }
 .social-icons-footer{
-    margin-right: 120px;
+    width: 208px;
+    margin-right: 80px;
 }
 .container-footer{
     display: flex;
     align-items: first baseline;
-    margin-right: 120px;
 }
 .footer-social{
     font-size: 16px;
@@ -671,6 +671,51 @@ section{
 }
 .m-right-footer{
     margin-right: 120px;
+}
+.subscribe-form{
+    /* width: 453px; */
+}
+
+.sub-email{    
+    width: 264px;
+    height: 40px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    background-color: transparent;
+    outline: none;
+    padding-left: 18px;
+    color:rgba(255, 255, 255, 1);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    line-height: 2;
+    margin-right: 24px;
+}
+.sub-email::placeholder{
+    color:rgba(255, 255, 255, 1);
+}
+.sub-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-btn{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:16px;
+    width: 165px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4D5AE5;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 0;
+    text-align: center;
+    cursor: pointer;
 }
 .visually-hidden {
     position: absolute;
