@@ -415,13 +415,15 @@
                     <textarea name="comment" class="user-com" id="comment" rows="10" placeholder="Text input"></textarea>
                 </div>
                 <div class="checkbox">
-                    <input type="checkbox" name="agree" id="agree" class="modal-check">
-                    <label class="checkbox-agree" for="agree"><span class="modal-check-text"></span>I accept the terms and conditions of the
+                    <input type="checkbox" name="agree" id="agree" class="modal-check visually-hidden">
+                    <label class="checkbox-agree" for="agree"><span class="modal-check-text">
+                        <svg class="check" width="10" height="8">
+                            <use href="./images/icons.svg#icon-Vector41"></use>
+                        </svg>
+                    </span>I accept the terms and conditions of the
                         <a href="/">Privacy Policy</a>
                     </label>
-                    <svg class="check" width="16" height="16">
-                        <use href="./images/icons.svg#icon-Vector41"></use>
-                    </svg>
+                    
                 </div>
                 <button type="submit" class=" btn btn-send">Send</button>
             </form>
