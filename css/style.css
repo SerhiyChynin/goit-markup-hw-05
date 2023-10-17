@@ -380,7 +380,7 @@ label{
     letter-spacing: 0.04em;
     color: rgba(142, 143, 153, 1);
     text-align: center;
-    display: inline-flex;
+    /* display: inline-flex; */
     align-items: center;
 }
 .checkbox{
