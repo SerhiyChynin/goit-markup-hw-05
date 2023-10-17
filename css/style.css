@@ -417,7 +417,7 @@ label{
 
 
 .checkbox-agree{
-    display: inline-flex;
+    /* display: inline-flex; */
 }
 
 .modal-check:checked + .checkbox-agree .modal-check-text{
