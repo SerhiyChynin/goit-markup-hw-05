@@ -433,7 +433,6 @@ label{
 }
 .check{
     color: black;
-    fill: transparent;
     stroke: transparent;
 }
 
@@ -746,7 +745,6 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* gap:16px; */
     min-width: 165px;
     height: 40px;
     font-family: "Roboto", sans-serif;
